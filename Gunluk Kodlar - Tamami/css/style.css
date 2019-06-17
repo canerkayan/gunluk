@@ -1,0 +1,339 @@
+@media only screen and (max-width: 1500px) {
+  body {
+    background-color: #fefac6;
+    color: black;
+    font-family: Courier, monospace;
+    font-weight: 100 !important;
+  }
+  .row {
+  	width: 100%
+  }
+  .text-center {
+  	text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .logo {
+  	font-size: 100px;
+  	text-align: center;
+  	color: #ffb061;
+    font-weight: 100 !important;
+  }
+
+  .logo_kayit {
+    font-size: 80px;
+    text-align: center;
+    color: #ffb061; 
+    font-weight: 100 !important;
+  }
+
+  .green_title {
+    font-size: 30px;
+    text-align: center;
+    color: #95c771; 
+    font-weight: 100 !important;
+  }
+
+  .r05 {
+  	width: 5%;
+  	float: left;
+  	margin-left: 1.5%;
+  	margin-right: 3%
+  }
+  .r2 {
+    width: 20%;margin-left: 2.5%;float: left;
+  }
+  .r10 {
+    width: 100%;
+    float: left;
+    margin-left: 1.5%;
+    margin-right: 3%
+  }
+
+  .r5 {
+    width: 45%;
+    float: left;
+    margin-left: 2.5%;
+  }
+  .r9 {
+  	width: 90%;
+  	float: left;
+  }
+
+  .w40 {
+  	width: 40%;
+  	margin-left: 5%;
+  	margin-right: 5%;
+  	float: left;
+  }
+
+  .w80 {
+    width: 75%;
+    float: left;
+  }
+
+  .w40_kayit {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    padding-left: 25%;
+  }
+
+  .giris_row {
+  	height: 50px;
+    border: 1px solid #d5de80;
+  }
+
+  .menu_row {
+    height: 50px;
+    border: 1px solid #000;
+    margin-bottom: 2%;
+    border-radius: 5px;
+  }
+  
+  .giris_input {
+  	width: 95% !important;
+    background-color: #fefac6 !important;
+    border-top: 1px solid #d5de80 !important;
+    border-right: 1px solid #d5de80 !important;
+    border-bottom: 1px solid #d5de80 !important;
+    border-left: 0px solid #d5de80 !important;
+    text-align: center !important;
+    height: 48px;
+    font-size: 18px;
+    margin-top: -1px;
+    z-index: -999999999;
+    margin-left: 5%;
+  }
+
+  .k_text {
+    font-size: 18px;
+    height: 48px;
+    color: #841761;
+    font-weight: bold;
+  }
+
+  .a_text {
+    font-size: 18px;
+    height: 48px;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  .giris_input_no_border {
+    width: 95% !important;
+    background-color: #fefac6 !important;
+    border-top: 1px solid #d5de80 !important;
+    border-right: 0px solid #d5de80 !important;
+    border-bottom: 1px solid #d5de80 !important;
+    border-left: 0px solid #d5de80 !important;
+    text-align: center !important;
+    height: 52px;
+    font-size: 18px;
+    margin-top: -1px;
+    z-index: -999999999;
+    margin-left: 5%;
+  }
+  .giris_input_no_border::placeholder {
+    color: #841761;
+    font-weight: bold;
+  }
+  .giris_input::placeholder {
+  	color: #841761;
+  	font-weight: bold;
+  }
+
+  .giris_img {
+  	width: 30px;
+    padding-top: 65%;
+    padding-left: 45%;
+  }
+
+  .giris_buton {
+  	border-radius: 5px;
+  	padding: 7.5%;
+  	width: 100%;
+  	border: 1px solid #000;
+  	font-size: 18px;
+  	background: transparent;
+  }
+
+  .kayit_buton {
+    border-radius: 5px;
+    padding: 7.5%;
+    width: 100%;
+    border: 1px solid #000;
+    font-size: 18px;
+    background: #e8f2a5;
+  }
+  .facebook_icon {
+  	width: 75%;padding-left: 12.5%;
+  }
+  .mt0 {
+    margin-top: 0%;
+  }
+  .mt2e5 {
+    margin-top: 2.5%;
+  }
+  .mb2e5 {
+    margin-bottom: -2.5%;
+  }
+  .mt5 {
+    margin-top: 5%;
+  }
+  .mt5e {
+    margin-top: -5%;
+  }
+  .mt7e5 {
+    margin-top: 7.5%
+  }
+  .mt10 {
+  	margin-top: 10%;
+  }
+  .mt15 {
+    margin-top: 15%;
+  }
+  .mt20 {
+    margin-top: 20%;
+  }
+  .mt25 {
+  	margin-top: 25%;
+  }
+  .mt30 {
+  	margin-top: 30%;
+  }
+  .mb5 {
+    margin-bottom: 20%;
+  }
+
+  .pt3e5 {
+    padding-top: 3.5%;
+  }
+  .pt4 {
+    padding-top: 4%;
+  }
+
+  .menu_text {
+    font-size: 18px;
+    height: 48px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .g_tarih {
+    padding-top: 1.2%;
+    padding-left: 0%;
+  }
+
+  .g_text {
+    font-size: 18px;
+    height: 48px;
+    color: #841761;
+    font-weight: bold;
+    padding-left: 3%
+  }
+
+  .g_input {
+    width: 95% !important;
+    background-color: #fefac6 !important;
+    border-top: 0px solid #d5de80 !important;
+    border-right: 0px solid #d5de80 !important;
+    border-bottom: 0px solid #d5de80 !important;
+    border-left: 0px solid #d5de80 !important;
+    text-align: left !important;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 1px;
+    z-index: -999999999;
+    margin-left: 5%;
+  }
+
+  .g_input_text_area {
+    width: 95% !important;
+    background-color: #fefac6 !important;
+    border: 1px solid #97abcf !important;
+    text-align: left !important;
+    height: 200px;
+    font-size: 18px;
+    margin-top: -1px;
+    z-index: -999999999;
+    margin-left: -2.5%;
+  }
+
+  .g_input::placeholder {
+    color: #841761;
+    font-weight: bold;
+  }
+
+  .g_input_text_area::placeholder {
+    color: #000000;
+    text-align: center;
+    font-size: 30px
+  }
+
+  .g_menu_row {
+    height: 300px;
+    border: 1px solid #3d7c7b;
+    margin-bottom: 2%;
+    border-radius: 10px;
+  }
+
+  .giris_buton {
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #000;
+    font-size: 18px;
+    background: transparent;
+  }
+
+  .r2_image {
+    width: 100%;
+  }
+
+  .evet {
+    border: 1px solid green;background: transparent;border-radius: 20px;color: green;
+  }
+
+  .hayir {
+    border: 1px solid red;background: transparent;border-radius: 20px;color: red;
+  }
+
+  .arkadas_row {
+    border: 1px solid #97abcf !important;padding-top: 2%;height: auto;overflow:auto
+  }
+
+  .fl {
+    float: left;
+  }
+
+  .a1 {
+    width: 20%;float: left;
+  }
+
+  .a2 {
+    width: 60%;float: left;padding-top: 7.5%;padding-left: 5%;
+  }
+
+  .a3 {
+    width: 15%;float: left;padding-top: 6%;
+  }
+
+  .krow {
+    overflow: hidden;height: auto;margin-top: 3%;
+  }
+
+  .kic {
+    width: 100%;float: left;
+  }
+  .kicon {
+    width: 20%;float: left;
+  }
+  .ktext {
+    width: 75%;float: left;padding-top: 7.5%;padding-bottom: 3%;
+  }
+  .k100 {
+    width: 100%
+  }
+}
